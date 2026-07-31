@@ -1,0 +1,12 @@
+{
+  "stack": "node18",
+  "build": [
+    "npm install",
+    "npm run build"
+  ],
+  "command": "npm start",
+  "env_variables": {
+    "NODE_ENV": "production",
+    "JWT_SECRET": "lifelink-secure-jwt-secret-key-2026"
+  }
+}

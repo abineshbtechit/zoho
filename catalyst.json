@@ -1,0 +1,13 @@
+{
+  "name": "lifelink-organ-management",
+  "id": "lifelink_project_001",
+  "client": {
+    "source": "dist",
+    "plugin": "@catalyst/slate"
+  },
+  "appsail": {
+    "source": ".",
+    "build": "npm run build",
+    "run": "npm start"
+  }
+}
